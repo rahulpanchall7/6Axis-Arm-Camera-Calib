@@ -1,0 +1,6 @@
+Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description
+Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description
+Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description
+Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description
