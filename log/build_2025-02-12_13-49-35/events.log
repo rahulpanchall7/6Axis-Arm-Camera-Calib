@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000828] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000919] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099942] (-) TimerEvent: {}
+[0.200343] (-) TimerEvent: {}
+[0.296206] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.300477] (-) TimerEvent: {}
+[0.400824] (-) TimerEvent: {}
+[0.403488] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/rahul/camera_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description'], 'cwd': '/home/rahul/camera_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1227'), ('SYSTEMD_EXEC_PID', '2740'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3658'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:39928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/2699,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/2699'), ('INVOCATION_ID', '344460be7f5249f1bdf9992b7791c4ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7e46b9e8-3c3c-4895-9849-e5d886c4503e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.505194] (-) TimerEvent: {}
+[0.606505] (-) TimerEvent: {}
+[0.706924] (-) TimerEvent: {}
+[0.807434] (-) TimerEvent: {}
+[0.907976] (-) TimerEvent: {}
+[1.008380] (-) TimerEvent: {}
+[1.108904] (-) TimerEvent: {}
+[1.209437] (-) TimerEvent: {}
+[1.309924] (-) TimerEvent: {}
+[1.410653] (-) TimerEvent: {}
+[1.511212] (-) TimerEvent: {}
+[1.611799] (-) TimerEvent: {}
+[1.712259] (-) TimerEvent: {}
+[1.812958] (-) TimerEvent: {}
+[1.913546] (-) TimerEvent: {}
+[2.014623] (-) TimerEvent: {}
+[2.115118] (-) TimerEvent: {}
+[2.215920] (-) TimerEvent: {}
+[2.316496] (-) TimerEvent: {}
+[2.417021] (-) TimerEvent: {}
+[2.517543] (-) TimerEvent: {}
+[2.618122] (-) TimerEvent: {}
+[2.718405] (-) TimerEvent: {}
+[2.818684] (-) TimerEvent: {}
+[2.919047] (-) TimerEvent: {}
+[3.019475] (-) TimerEvent: {}
+[3.119951] (-) TimerEvent: {}
+[3.220415] (-) TimerEvent: {}
+[3.320877] (-) TimerEvent: {}
+[3.421207] (-) TimerEvent: {}
+[3.521640] (-) TimerEvent: {}
+[3.622044] (-) TimerEvent: {}
+[3.722384] (-) TimerEvent: {}
+[3.822841] (-) TimerEvent: {}
+[3.923332] (-) TimerEvent: {}
+[4.023797] (-) TimerEvent: {}
+[4.124325] (-) TimerEvent: {}
+[4.224823] (-) TimerEvent: {}
+[4.325318] (-) TimerEvent: {}
+[4.425807] (-) TimerEvent: {}
+[4.526291] (-) TimerEvent: {}
+[4.626835] (-) TimerEvent: {}
+[4.727383] (-) TimerEvent: {}
+[4.827884] (-) TimerEvent: {}
+[4.928321] (-) TimerEvent: {}
+[5.028769] (-) TimerEvent: {}
+[5.129391] (-) TimerEvent: {}
+[5.229820] (-) TimerEvent: {}
+[5.330281] (-) TimerEvent: {}
+[5.430792] (-) TimerEvent: {}
+[5.531224] (-) TimerEvent: {}
+[5.631679] (-) TimerEvent: {}
+[5.732136] (-) TimerEvent: {}
+[5.832677] (-) TimerEvent: {}
+[5.933273] (-) TimerEvent: {}
+[6.033803] (-) TimerEvent: {}
+[6.134319] (-) TimerEvent: {}
+[6.234984] (-) TimerEvent: {}
+[6.335380] (-) TimerEvent: {}
+[6.435665] (-) TimerEvent: {}
+[6.536048] (-) TimerEvent: {}
+[6.636627] (-) TimerEvent: {}
+[6.737273] (-) TimerEvent: {}
+[6.837688] (-) TimerEvent: {}
+[6.938143] (-) TimerEvent: {}
+[7.038555] (-) TimerEvent: {}
+[7.139015] (-) TimerEvent: {}
+[7.239421] (-) TimerEvent: {}
+[7.340122] (-) TimerEvent: {}
+[7.440400] (-) TimerEvent: {}
+[7.540676] (-) TimerEvent: {}
+[7.641025] (-) TimerEvent: {}
+[7.741430] (-) TimerEvent: {}
+[7.841801] (-) TimerEvent: {}
+[7.942273] (-) TimerEvent: {}
+[8.042804] (-) TimerEvent: {}
+[8.143297] (-) TimerEvent: {}
+[8.243776] (-) TimerEvent: {}
+[8.344244] (-) TimerEvent: {}
+[8.444772] (-) TimerEvent: {}
+[8.545230] (-) TimerEvent: {}
+[8.645753] (-) TimerEvent: {}
+[8.746221] (-) TimerEvent: {}
+[8.846759] (-) TimerEvent: {}
+[8.947396] (-) TimerEvent: {}
+[9.047911] (-) TimerEvent: {}
+[9.148341] (-) TimerEvent: {}
+[9.248787] (-) TimerEvent: {}
+[9.349230] (-) TimerEvent: {}
+[9.449730] (-) TimerEvent: {}
+[9.550222] (-) TimerEvent: {}
+[9.650735] (-) TimerEvent: {}
+[9.751269] (-) TimerEvent: {}
+[9.851673] (-) TimerEvent: {}
+[9.952003] (-) TimerEvent: {}
+[10.052576] (-) TimerEvent: {}
+[10.153051] (-) TimerEvent: {}
+[10.253520] (-) TimerEvent: {}
+[10.354005] (-) TimerEvent: {}
+[10.454428] (-) TimerEvent: {}
+[10.554886] (-) TimerEvent: {}
+[10.655339] (-) TimerEvent: {}
+[10.755841] (-) TimerEvent: {}
+[10.856238] (-) TimerEvent: {}
+[10.956742] (-) TimerEvent: {}
+[11.057216] (-) TimerEvent: {}
+[11.157681] (-) TimerEvent: {}
+[11.258225] (-) TimerEvent: {}
+[11.358682] (-) TimerEvent: {}
+[11.459125] (-) TimerEvent: {}
+[11.559563] (-) TimerEvent: {}
+[11.660049] (-) TimerEvent: {}
+[11.760720] (-) TimerEvent: {}
+[11.861122] (-) TimerEvent: {}
+[11.961464] (-) TimerEvent: {}
+[12.061850] (-) TimerEvent: {}
+[12.162550] (-) TimerEvent: {}
+[12.263283] (-) TimerEvent: {}
+[12.363738] (-) TimerEvent: {}
+[12.464140] (-) TimerEvent: {}
+[12.565075] (-) TimerEvent: {}
+[12.665515] (-) TimerEvent: {}
+[12.691580] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.765755] (-) TimerEvent: {}
+[12.866299] (-) TimerEvent: {}
+[12.966808] (-) TimerEvent: {}
+[13.067228] (-) TimerEvent: {}
+[13.167669] (-) TimerEvent: {}
+[13.268127] (-) TimerEvent: {}
+[13.368424] (-) TimerEvent: {}
+[13.468772] (-) TimerEvent: {}
+[13.569517] (-) TimerEvent: {}
+[13.670037] (-) TimerEvent: {}
+[13.770499] (-) TimerEvent: {}
+[13.870925] (-) TimerEvent: {}
+[13.971273] (-) TimerEvent: {}
+[14.020216] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.071436] (-) TimerEvent: {}
+[14.171881] (-) TimerEvent: {}
+[14.239679] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.272007] (-) TimerEvent: {}
+[14.372384] (-) TimerEvent: {}
+[14.472838] (-) TimerEvent: {}
+[14.551085] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.568442] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.569293] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.572926] (-) TimerEvent: {}
+[14.580217] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.594379] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.673295] (-) TimerEvent: {}
+[14.773725] (-) TimerEvent: {}
+[14.795582] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.802533] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.802763] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.803233] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.873872] (-) TimerEvent: {}
+[14.974458] (-) TimerEvent: {}
+[15.006041] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[15.074668] (-) TimerEvent: {}
+[15.175201] (-) TimerEvent: {}
+[15.275661] (-) TimerEvent: {}
+[15.376155] (-) TimerEvent: {}
+[15.476582] (-) TimerEvent: {}
+[15.576981] (-) TimerEvent: {}
+[15.582162] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[15.677150] (-) TimerEvent: {}
+[15.777593] (-) TimerEvent: {}
+[15.878163] (-) TimerEvent: {}
+[15.978648] (-) TimerEvent: {}
+[16.079157] (-) TimerEvent: {}
+[16.179582] (-) TimerEvent: {}
+[16.280089] (-) TimerEvent: {}
+[16.366630] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[16.380572] (-) TimerEvent: {}
+[16.481018] (-) TimerEvent: {}
+[16.581457] (-) TimerEvent: {}
+[16.676503] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.676819] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[16.680538] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.681545] (-) TimerEvent: {}
+[16.682486] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.688528] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.692570] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.701166] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[16.705568] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/rahul/camera_ws/build/robot_description\n'}
+[16.714949] (robot_description) CommandEnded: {'returncode': 0}
+[16.716042] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[16.717317] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/camera_ws/build/robot_description', '--', '-j12', '-l12'], 'cwd': '/home/rahul/camera_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1227'), ('SYSTEMD_EXEC_PID', '2740'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3658'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:39928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/2699,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/2699'), ('INVOCATION_ID', '344460be7f5249f1bdf9992b7791c4ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7e46b9e8-3c3c-4895-9849-e5d886c4503e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[16.768191] (robot_description) CommandEnded: {'returncode': 0}
+[16.768897] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[16.779686] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/camera_ws/build/robot_description'], 'cwd': '/home/rahul/camera_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1227'), ('SYSTEMD_EXEC_PID', '2740'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3658'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:39928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/2699,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/2699'), ('INVOCATION_ID', '344460be7f5249f1bdf9992b7791c4ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7e46b9e8-3c3c-4895-9849-e5d886c4503e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[16.781650] (-) TimerEvent: {}
+[16.787631] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.787913] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch\n'}
+[16.788134] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[16.827500] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[16.842137] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes\n'}
+[16.842458] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist1.stl\n'}
+[16.854817] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_link.stl\n'}
+[16.871633] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_base_link.stl\n'}
+[16.881787] (-) TimerEvent: {}
+[16.906267] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist2.stl\n'}
+[16.918529] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_knuckle_link.stl\n'}
+[16.927154] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/shoulder.stl\n'}
+[16.928274] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_tip_link.stl\n'}
+[16.941905] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist3.stl\n'}
+[16.942658] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/upperarm.stl\n'}
+[16.943744] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/base.stl\n'}
+[16.944553] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/forearm.stl\n'}
+[16.945493] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/coupler.stl\n'}
+[16.960261] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_inner_knuckle_link.stl\n'}
+[16.969193] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf\n'}
+[16.969524] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro\n'}
+[16.981961] (-) TimerEvent: {}
+[16.983371] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro\n'}
+[16.992335] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/rviz\n'}
+[16.992850] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[16.993294] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[16.993737] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[16.994050] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[16.994349] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[16.994661] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[16.994990] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[16.995285] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[16.995539] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[16.995847] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[16.996131] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[16.996553] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[16.997008] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[16.997222] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[16.997501] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.xml\n'}
+[17.001781] (robot_description) CommandEnded: {'returncode': 0}
+[17.082245] (-) TimerEvent: {}
+[17.182803] (-) TimerEvent: {}
+[17.218490] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[17.219664] (-) EventReactorShutdown: {}
