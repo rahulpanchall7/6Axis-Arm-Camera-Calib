@@ -1,0 +1,115 @@
+[0.015s] Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description
+[0.035s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.176s] -- Found ros_gz_bridge: 0.254.2 (/opt/ros/iron/share/ros_gz_bridge/cmake)
+[0.305s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.325s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.598s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.223s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.387s] -- Found ros_gz_sim: 0.254.2 (/opt/ros/iron/share/ros_gz_sim/cmake)
+[2.391s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[2.423s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.452s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.452s] -- Looking for OGRE...
+[2.460s] -- Found Ogre Ghadamon (1.9.0)
+[2.460s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.469s] -- Looking for OGRE_Paging...
+[2.470s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.470s] -- Looking for OGRE_Terrain...
+[2.470s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.470s] -- Looking for OGRE_Property...
+[2.470s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.470s] -- Looking for OGRE_RTShaderSystem...
+[2.470s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.470s] -- Looking for OGRE_Volume...
+[2.470s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.470s] -- Looking for OGRE_Overlay...
+[2.471s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.639s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.639s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.639s] -- Searching for dependencies of ignition-transport8
+[2.661s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.675s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.682s] -- Checking for module 'libzmq >= 4'
+[2.704s] --   Found libzmq , version 4.3.4
+[2.768s] -- Checking for module 'uuid'
+[2.786s] --   Found uuid, version 2.37.2
+[2.848s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.848s] -- Searching for dependencies of ignition-msgs5
+[2.870s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.876s] -- Checking for module 'tinyxml2'
+[2.897s] --   Found tinyxml2, version 9.0.0
+[2.950s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.950s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.951s] -- Searching for dependencies of ignition-common3
+[2.951s] -- Looking for dlfcn.h - found
+[2.951s] -- Looking for libdl - found
+[2.967s] -- Searching for <ignition-common3> component [graphics]
+[2.967s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.969s] -- Searching for dependencies of ignition-common3-graphics
+[2.969s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.971s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.972s] -- Searching for dependencies of ignition-fuel_tools4
+[3.019s] -- Checking for module 'jsoncpp'
+[3.037s] --   Found jsoncpp, version 1.9.5
+[3.092s] -- Checking for module 'libzip'
+[3.110s] --   Found libzip, version 1.7.3
+[3.161s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.162s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.162s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.164s] -- Gazebo version: 11.10
+[3.168s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.525s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.525s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.527s] -- Added test 'lint_cmake' to check CMake code style
+[3.531s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.538s] -- Added test 'xmllint' to check XML markup files
+[3.543s] -- Configuring done
+[3.551s] -- Generating done
+[3.554s] -- Build files have been written to: /home/rahul/camera_ws/build/robot_description
+[3.568s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description
+[3.572s] Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+[3.637s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+[3.650s] Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description
+[3.657s] -- Install configuration: ""
+[3.657s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch
+[3.657s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/display.launch.py
+[3.670s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[3.671s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes
+[3.671s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist1.stl
+[3.681s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_link.stl
+[3.697s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_base_link.stl
+[3.725s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist2.stl
+[3.739s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_knuckle_link.stl
+[3.745s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/shoulder.stl
+[3.746s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_tip_link.stl
+[3.760s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist3.stl
+[3.761s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/upperarm.stl
+[3.762s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/base.stl
+[3.763s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/forearm.stl
+[3.764s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/coupler.stl
+[3.778s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_inner_knuckle_link.stl
+[3.788s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf
+[3.788s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro
+[3.797s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[3.797s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro
+[3.806s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/rviz
+[3.807s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[3.807s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[3.808s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[3.808s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[3.808s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.sh
+[3.809s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.dsv
+[3.809s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.bash
+[3.809s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.sh
+[3.809s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.zsh
+[3.810s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.dsv
+[3.810s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.dsv
+[3.810s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[3.810s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[3.811s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[3.811s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.xml
+[3.815s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description

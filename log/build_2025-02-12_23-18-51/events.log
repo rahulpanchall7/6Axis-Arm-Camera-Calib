@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000215] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict([('robot_description', '/home/rahul/camera_ws/install/robot_description')])}
+[0.000240] (robot_moveit) JobQueued: {'identifier': 'robot_moveit', 'dependencies': OrderedDict([('robot_description', '/home/rahul/camera_ws/install/robot_description')])}
+[0.000258] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099323] (-) TimerEvent: {}
+[0.199848] (-) TimerEvent: {}
+[0.223047] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.249330] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.251215] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/camera_ws/build/robot_description', '--', '-j12', '-l12'], 'cwd': '/home/rahul/camera_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.300001] (-) TimerEvent: {}
+[0.400394] (-) TimerEvent: {}
+[0.500719] (-) TimerEvent: {}
+[0.601202] (-) TimerEvent: {}
+[0.701869] (-) TimerEvent: {}
+[0.802353] (-) TimerEvent: {}
+[0.902871] (-) TimerEvent: {}
+[1.003335] (-) TimerEvent: {}
+[1.103865] (-) TimerEvent: {}
+[1.204308] (-) TimerEvent: {}
+[1.304822] (-) TimerEvent: {}
+[1.405578] (-) TimerEvent: {}
+[1.506062] (-) TimerEvent: {}
+[1.606597] (-) TimerEvent: {}
+[1.707152] (-) TimerEvent: {}
+[1.808343] (-) TimerEvent: {}
+[1.908729] (-) TimerEvent: {}
+[2.009408] (-) TimerEvent: {}
+[2.109888] (-) TimerEvent: {}
+[2.210308] (-) TimerEvent: {}
+[2.310744] (-) TimerEvent: {}
+[2.411168] (-) TimerEvent: {}
+[2.511691] (-) TimerEvent: {}
+[2.612227] (-) TimerEvent: {}
+[2.712632] (-) TimerEvent: {}
+[2.813145] (-) TimerEvent: {}
+[2.913708] (-) TimerEvent: {}
+[3.014269] (-) TimerEvent: {}
+[3.114733] (-) TimerEvent: {}
+[3.215274] (-) TimerEvent: {}
+[3.315743] (-) TimerEvent: {}
+[3.416288] (-) TimerEvent: {}
+[3.516755] (-) TimerEvent: {}
+[3.617368] (-) TimerEvent: {}
+[3.717853] (-) TimerEvent: {}
+[3.818339] (-) TimerEvent: {}
+[3.918946] (-) TimerEvent: {}
+[4.019438] (-) TimerEvent: {}
+[4.120045] (-) TimerEvent: {}
+[4.220659] (-) TimerEvent: {}
+[4.321242] (-) TimerEvent: {}
+[4.421818] (-) TimerEvent: {}
+[4.522342] (-) TimerEvent: {}
+[4.622825] (-) TimerEvent: {}
+[4.723380] (-) TimerEvent: {}
+[4.823884] (-) TimerEvent: {}
+[4.924324] (-) TimerEvent: {}
+[5.024762] (-) TimerEvent: {}
+[5.125223] (-) TimerEvent: {}
+[5.225669] (-) TimerEvent: {}
+[5.326126] (-) TimerEvent: {}
+[5.426534] (-) TimerEvent: {}
+[5.527043] (-) TimerEvent: {}
+[5.627547] (-) TimerEvent: {}
+[5.728117] (-) TimerEvent: {}
+[5.828557] (-) TimerEvent: {}
+[5.928974] (-) TimerEvent: {}
+[5.944560] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[6.029138] (-) TimerEvent: {}
+[6.129578] (-) TimerEvent: {}
+[6.230090] (-) TimerEvent: {}
+[6.330515] (-) TimerEvent: {}
+[6.431031] (-) TimerEvent: {}
+[6.531479] (-) TimerEvent: {}
+[6.632023] (-) TimerEvent: {}
+[6.732467] (-) TimerEvent: {}
+[6.832895] (-) TimerEvent: {}
+[6.884967] (robot_description) StdoutLine: {'line': b'-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[6.933030] (-) TimerEvent: {}
+[7.033561] (-) TimerEvent: {}
+[7.134038] (-) TimerEvent: {}
+[7.234569] (-) TimerEvent: {}
+[7.335041] (-) TimerEvent: {}
+[7.435516] (-) TimerEvent: {}
+[7.472146] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[7.535679] (-) TimerEvent: {}
+[7.560509] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[7.635877] (-) TimerEvent: {}
+[7.736311] (-) TimerEvent: {}
+[7.739412] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.829826] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.836447] (-) TimerEvent: {}
+[7.936859] (-) TimerEvent: {}
+[8.037297] (-) TimerEvent: {}
+[8.137732] (-) TimerEvent: {}
+[8.238191] (-) TimerEvent: {}
+[8.338829] (-) TimerEvent: {}
+[8.431685] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[8.438981] (-) TimerEvent: {}
+[8.526822] (robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.539204] (-) TimerEvent: {}
+[8.639517] (-) TimerEvent: {}
+[8.739822] (-) TimerEvent: {}
+[8.840106] (-) TimerEvent: {}
+[8.940404] (-) TimerEvent: {}
+[9.040870] (-) TimerEvent: {}
+[9.141308] (-) TimerEvent: {}
+[9.241715] (-) TimerEvent: {}
+[9.342118] (-) TimerEvent: {}
+[9.442511] (-) TimerEvent: {}
+[9.484197] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.542628] (-) TimerEvent: {}
+[9.643196] (-) TimerEvent: {}
+[9.743568] (-) TimerEvent: {}
+[9.843954] (-) TimerEvent: {}
+[9.844854] (robot_description) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[9.944049] (-) TimerEvent: {}
+[9.959895] (robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[10.044258] (-) TimerEvent: {}
+[10.144790] (-) TimerEvent: {}
+[10.245223] (-) TimerEvent: {}
+[10.311177] (robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[10.345355] (-) TimerEvent: {}
+[10.445743] (-) TimerEvent: {}
+[10.546205] (-) TimerEvent: {}
+[10.646633] (-) TimerEvent: {}
+[10.747124] (-) TimerEvent: {}
+[10.847651] (-) TimerEvent: {}
+[10.948208] (-) TimerEvent: {}
+[11.048743] (-) TimerEvent: {}
+[11.149206] (-) TimerEvent: {}
+[11.249646] (-) TimerEvent: {}
+[11.350048] (-) TimerEvent: {}
+[11.450483] (-) TimerEvent: {}
+[11.517110] (robot_description) StdoutLine: {'line': b'-- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)\n'}
+[11.550609] (-) TimerEvent: {}
+[11.651015] (-) TimerEvent: {}
+[11.751619] (-) TimerEvent: {}
+[11.852080] (-) TimerEvent: {}
+[11.874661] (robot_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)\n'}
+[11.952417] (-) TimerEvent: {}
+[12.052821] (-) TimerEvent: {}
+[12.153391] (-) TimerEvent: {}
+[12.253853] (-) TimerEvent: {}
+[12.354283] (-) TimerEvent: {}
+[12.454750] (-) TimerEvent: {}
+[12.464694] (robot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[12.554920] (-) TimerEvent: {}
+[12.655332] (-) TimerEvent: {}
+[12.755869] (-) TimerEvent: {}
+[12.856826] (-) TimerEvent: {}
+[12.957284] (-) TimerEvent: {}
+[13.057758] (-) TimerEvent: {}
+[13.107056] (robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[13.144228] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[13.157878] (-) TimerEvent: {}
+[13.250829] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[13.258010] (-) TimerEvent: {}
+[13.295729] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[13.340851] (robot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[13.352981] (robot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[13.358162] (-) TimerEvent: {}
+[13.376599] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[13.377015] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[13.377267] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[13.377404] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[13.377549] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[13.377714] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[13.377882] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[13.378000] (robot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[13.378110] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[13.378218] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[13.378330] (robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[13.378438] (robot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[13.458336] (-) TimerEvent: {}
+[13.558720] (-) TimerEvent: {}
+[13.597676] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[13.607127] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[13.607601] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[13.658416] (robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[13.658815] (-) TimerEvent: {}
+[13.672837] (robot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[13.681983] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[13.759007] (-) TimerEvent: {}
+[13.859386] (-) TimerEvent: {}
+[13.880138] (robot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[13.959540] (-) TimerEvent: {}
+[14.060233] (-) TimerEvent: {}
+[14.122650] (robot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[14.160402] (-) TimerEvent: {}
+[14.173244] (robot_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[14.260543] (-) TimerEvent: {}
+[14.286927] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[14.287871] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[14.334486] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[14.349428] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[14.360719] (-) TimerEvent: {}
+[14.366819] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[14.367523] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[14.383009] (robot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[14.383247] (robot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[14.413374] (robot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[14.416543] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[14.417729] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[14.418620] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[14.435508] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[14.436621] (robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[14.460882] (-) TimerEvent: {}
+[14.561316] (-) TimerEvent: {}
+[14.588481] (robot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[14.626034] (robot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[14.661489] (-) TimerEvent: {}
+[14.752190] (robot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[14.761617] (-) TimerEvent: {}
+[14.798523] (robot_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[14.861814] (-) TimerEvent: {}
+[14.891632] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[14.892707] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[14.893846] (robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[14.920183] (robot_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[14.950385] (robot_description) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.254.2 (/opt/ros/iron/share/ros_gz_sim/cmake)\n'}
+[14.961959] (-) TimerEvent: {}
+[15.004643] (robot_description) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.254.2 (/opt/ros/iron/share/ros_gz_bridge/cmake)\n'}
+[15.062148] (-) TimerEvent: {}
+[15.162526] (-) TimerEvent: {}
+[15.262877] (-) TimerEvent: {}
+[15.350830] (robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[15.363005] (-) TimerEvent: {}
+[15.463350] (-) TimerEvent: {}
+[15.563808] (-) TimerEvent: {}
+[15.664245] (-) TimerEvent: {}
+[15.764672] (-) TimerEvent: {}
+[15.865126] (-) TimerEvent: {}
+[15.965554] (-) TimerEvent: {}
+[16.065997] (-) TimerEvent: {}
+[16.166420] (-) TimerEvent: {}
+[16.266864] (-) TimerEvent: {}
+[16.367291] (-) TimerEvent: {}
+[16.467716] (-) TimerEvent: {}
+[16.568146] (-) TimerEvent: {}
+[16.668549] (-) TimerEvent: {}
+[16.769083] (-) TimerEvent: {}
+[16.785906] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[16.869201] (-) TimerEvent: {}
+[16.969560] (-) TimerEvent: {}
+[17.070081] (-) TimerEvent: {}
+[17.170605] (-) TimerEvent: {}
+[17.249158] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.249451] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[17.250953] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.252590] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.258728] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.262361] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.270735] (-) TimerEvent: {}
+[17.371185] (-) TimerEvent: {}
+[17.436963] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[17.465674] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/rahul/camera_ws/build/robot_description\n'}
+[17.471285] (-) TimerEvent: {}
+[17.571695] (-) TimerEvent: {}
+[17.607629] (robot_description) CommandEnded: {'returncode': 0}
+[17.608424] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[17.630243] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/camera_ws/build/robot_description'], 'cwd': '/home/rahul/camera_ws/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[17.646924] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.647267] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch\n'}
+[17.647508] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[17.647591] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[17.647647] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes\n'}
+[17.647856] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist1.stl\n'}
+[17.647970] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_link.stl\n'}
+[17.648074] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_base_link.stl\n'}
+[17.648169] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist2.stl\n'}
+[17.648221] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_knuckle_link.stl\n'}
+[17.648272] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/shoulder.stl\n'}
+[17.648324] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_tip_link.stl\n'}
+[17.648373] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist3.stl\n'}
+[17.648426] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/upperarm.stl\n'}
+[17.648478] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/base.stl\n'}
+[17.648531] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/forearm.stl\n'}
+[17.648583] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/coupler.stl\n'}
+[17.648636] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_inner_knuckle_link.stl\n'}
+[17.648688] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf\n'}
+[17.648795] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro\n'}
+[17.648882] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro\n'}
+[17.648933] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro\n'}
+[17.648987] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/rviz\n'}
+[17.649035] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[17.649942] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[17.652514] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[17.652837] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[17.653072] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[17.653223] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[17.653445] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[17.653533] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[17.653586] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[17.653660] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[17.653711] (robot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[17.654395] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[17.671848] (-) TimerEvent: {}
+[17.704753] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[17.705190] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[17.705367] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.xml\n'}
+[17.709735] (robot_description) CommandEnded: {'returncode': 0}
+[17.772001] (-) TimerEvent: {}
+[17.872408] (-) TimerEvent: {}
+[17.972815] (-) TimerEvent: {}
+[18.073405] (-) TimerEvent: {}
+[18.077571] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[18.079100] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[18.087892] (robot_moveit) JobStarted: {'identifier': 'robot_moveit'}
+[18.131806] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[18.166644] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'build'}
+[18.167738] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/camera_ws/build/robot_controller', '--', '-j12', '-l12'], 'cwd': '/home/rahul/camera_ws/build/robot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron')]), 'shell': False}
+[18.169311] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'cmake'}
+[18.173499] (-) TimerEvent: {}
+[18.229624] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'build'}
+[18.230505] (robot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/camera_ws/build/robot_moveit', '--', '-j12', '-l12'], 'cwd': '/home/rahul/camera_ws/build/robot_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron')]), 'shell': False}
+[18.273663] (-) TimerEvent: {}
+[18.356975] (robot_controller) CommandEnded: {'returncode': 0}
+[18.358965] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'install'}
+[18.359570] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/camera_ws/build/robot_controller'], 'cwd': '/home/rahul/camera_ws/build/robot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron')]), 'shell': False}
+[18.368697] (robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.372015] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/launch\n'}
+[18.373739] (-) TimerEvent: {}
+[18.381814] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/launch/controller.launch.py\n'}
+[18.382017] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/config\n'}
+[18.409196] (robot_moveit) StdoutLine: {'line': b'Built target ament_cmake_python_copy_robot_moveit\n'}
+[18.440392] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/config/ros2_controllers.yaml\n'}
+[18.442721] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller\n'}
+[18.443109] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller\n'}
+[18.443409] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh\n'}
+[18.443591] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv\n'}
+[18.443713] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.sh\n'}
+[18.443886] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.dsv\n'}
+[18.444042] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.bash\n'}
+[18.444302] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.sh\n'}
+[18.444492] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.zsh\n'}
+[18.444632] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.dsv\n'}
+[18.444768] (robot_controller) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.dsv\n'}
+[18.446318] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller\n'}
+[18.449330] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake\n'}
+[18.449640] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake\n'}
+[18.449800] (robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.xml\n'}
+[18.453710] (robot_controller) CommandEnded: {'returncode': 0}
+[18.473839] (-) TimerEvent: {}
+[18.477781] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[18.573977] (-) TimerEvent: {}
+[18.674703] (-) TimerEvent: {}
+[18.775256] (-) TimerEvent: {}
+[18.817117] (robot_moveit) StdoutLine: {'line': b'running egg_info\n'}
+[18.818618] (robot_moveit) StdoutLine: {'line': b'writing robot_moveit.egg-info/PKG-INFO\n'}
+[18.819115] (robot_moveit) StdoutLine: {'line': b'writing dependency_links to robot_moveit.egg-info/dependency_links.txt\n'}
+[18.819495] (robot_moveit) StdoutLine: {'line': b'writing top-level names to robot_moveit.egg-info/top_level.txt\n'}
+[18.839193] (robot_moveit) StdoutLine: {'line': b"reading manifest file 'robot_moveit.egg-info/SOURCES.txt'\n"}
+[18.842168] (robot_moveit) StdoutLine: {'line': b"writing manifest file 'robot_moveit.egg-info/SOURCES.txt'\n"}
+[18.875381] (-) TimerEvent: {}
+[18.888336] (robot_moveit) StdoutLine: {'line': b'Built target ament_cmake_python_build_robot_moveit_egg\n'}
+[18.903121] (robot_moveit) CommandEnded: {'returncode': 0}
+[18.905270] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'install'}
+[18.907040] (robot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/camera_ws/build/robot_moveit'], 'cwd': '/home/rahul/camera_ws/build/robot_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rahul'), ('OLDPWD', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2669'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1907,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1907'), ('INVOCATION_ID', 'd40f2851c21f4ef0a1c3e5aa00870a43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44db5a1b-52ce-45dd-b19a-c6608c71f22d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/camera_ws/build/robot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/camera_ws/install/robot_description:/opt/ros/iron')]), 'shell': False}
+[18.923545] (robot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.925195] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.sh\n'}
+[18.925364] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.dsv\n'}
+[18.925722] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info\n'}
+[18.925917] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.926326] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/PKG-INFO\n'}
+[18.926717] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.927090] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/top_level.txt\n'}
+[18.927330] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit\n'}
+[18.929394] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py\n'}
+[18.929614] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/__init__.py\n'}
+[18.975489] (-) TimerEvent: {}
+[19.075867] (-) TimerEvent: {}
+[19.137067] (robot_moveit) StdoutLine: {'line': b"Listing '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit'...\n"}
+[19.142242] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch\n'}
+[19.176062] (-) TimerEvent: {}
+[19.250141] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py\n'}
+[19.250540] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py\n'}
+[19.250708] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config\n'}
+[19.255413] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml\n'}
+[19.255662] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro\n'}
+[19.255849] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml\n'}
+[19.256099] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro\n'}
+[19.256250] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml\n'}
+[19.256498] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[19.256644] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf\n'}
+[19.256752] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml\n'}
+[19.256921] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/ur5_controller.py\n'}
+[19.257028] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch\n'}
+[19.257128] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py\n'}
+[19.257228] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py\n'}
+[19.257328] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config\n'}
+[19.257428] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml\n'}
+[19.257531] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro\n'}
+[19.257712] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml\n'}
+[19.257891] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro\n'}
+[19.258034] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml\n'}
+[19.258163] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[19.258295] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf\n'}
+[19.258450] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml\n'}
+[19.258664] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/.setup_assistant\n'}
+[19.258790] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit\n'}
+[19.258971] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit\n'}
+[19.259076] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh\n'}
+[19.259186] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv\n'}
+[19.259293] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.sh\n'}
+[19.259449] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.dsv\n'}
+[19.259575] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.bash\n'}
+[19.259681] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.sh\n'}
+[19.259804] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.zsh\n'}
+[19.259928] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.dsv\n'}
+[19.260030] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.dsv\n'}
+[19.260828] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit\n'}
+[19.261230] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake\n'}
+[19.261455] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake\n'}
+[19.261595] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.xml\n'}
+[19.267633] (robot_moveit) CommandEnded: {'returncode': 0}
+[19.277031] (-) TimerEvent: {}
+[19.301886] (robot_moveit) JobEnded: {'identifier': 'robot_moveit', 'rc': 0}
+[19.302815] (-) EventReactorShutdown: {}

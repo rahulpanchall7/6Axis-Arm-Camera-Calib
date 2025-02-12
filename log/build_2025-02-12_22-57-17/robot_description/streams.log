@@ -1,0 +1,127 @@
+[0.119s] Invoking command in '/home/rahul/camera_ws/build/robot_description': /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description
+[0.786s] -- The C compiler identification is GNU 11.4.0
+[0.957s] -- The CXX compiler identification is GNU 11.4.0
+[0.973s] -- Detecting C compiler ABI info
+[1.092s] -- Detecting C compiler ABI info - done
+[1.098s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.099s] -- Detecting C compile features
+[1.109s] -- Detecting C compile features - done
+[1.121s] -- Detecting CXX compiler ABI info
+[1.210s] -- Detecting CXX compiler ABI info - done
+[1.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.220s] -- Detecting CXX compile features
+[1.220s] -- Detecting CXX compile features - done
+[1.294s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.786s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.157s] -- Found ros_gz_bridge: 0.254.2 (/opt/ros/iron/share/ros_gz_bridge/cmake)
+[2.479s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.512s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.933s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.947s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.261s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.323s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.455s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.610s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.317s] -- Found ros_gz_sim: 0.254.2 (/opt/ros/iron/share/ros_gz_sim/cmake)
+[7.464s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[7.650s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.676s] -- Checking for module 'bullet>=2.82'
+[7.733s] --   Found bullet, version 3.05
+[8.493s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[8.642s] -- Found assimp: /usr/include (found version "5.2.0") 
+[9.201s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[9.401s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[9.448s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.455s] -- Looking for OGRE...
+[9.456s] -- OGRE_PREFIX_WATCH changed.
+[9.469s] -- Checking for module 'OGRE'
+[9.504s] --   Found OGRE, version 1.9.0
+[9.621s] -- Found Ogre Ghadamon (1.9.0)
+[9.652s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[9.677s] -- Looking for OGRE_Paging...
+[9.685s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[9.685s] -- Looking for OGRE_Terrain...
+[9.690s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.690s] -- Looking for OGRE_Property...
+[9.695s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[9.695s] -- Looking for OGRE_RTShaderSystem...
+[9.699s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[9.700s] -- Looking for OGRE_Volume...
+[9.704s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[9.704s] -- Looking for OGRE_Overlay...
+[9.708s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[9.871s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.965s] -- Looking for ignition-transport8 -- found version 8.2.1
+[9.966s] -- Searching for dependencies of ignition-transport8
+[10.017s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[10.032s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[10.039s] -- Checking for module 'libzmq >= 4'
+[10.064s] --   Found libzmq , version 4.3.4
+[10.141s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[10.150s] -- Checking for module 'uuid'
+[10.183s] --   Found uuid, version 2.37.2
+[10.258s] -- Found UUID: TRUE  
+[10.278s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.279s] -- Searching for dependencies of ignition-msgs5
+[10.306s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.314s] -- Checking for module 'tinyxml2'
+[10.341s] --   Found tinyxml2, version 9.0.0
+[10.429s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.446s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.448s] -- Searching for dependencies of ignition-common3
+[10.472s] -- Looking for dlfcn.h - found
+[10.473s] -- Looking for libdl - found
+[10.477s] -- Found DL: TRUE  
+[10.547s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[10.549s] -- Searching for <ignition-common3> component [graphics]
+[10.556s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[10.557s] -- Searching for dependencies of ignition-common3-graphics
+[10.558s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.638s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[10.639s] -- Searching for dependencies of ignition-fuel_tools4
+[10.827s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[10.899s] -- Checking for module 'jsoncpp'
+[10.932s] --   Found jsoncpp, version 1.9.5
+[10.995s] -- Found JSONCPP: TRUE  
+[11.089s] -- Checking for module 'libzip'
+[11.140s] --   Found libzip, version 1.7.3
+[11.225s] -- Found ZIP: TRUE  
+[11.226s] -- Looking for ignition-common3 -- found version 3.14.0
+[11.227s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.228s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.276s] -- Gazebo version: 11.10
+[11.277s] -- Checking for module 'tbb'
+[11.306s] --   Found tbb, version 2021.5.0
+[11.521s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[11.634s] Error parsing '/home/rahul/camera_ws/src/robot_description/package.xml':
+[12.400s] Traceback (most recent call last):
+[12.400s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[12.400s]     main()
+[12.400s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[12.400s]     raise e
+[12.400s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[12.401s]     package = parse_package_string(
+[12.401s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[12.460s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[12.460s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/rahul/camera_ws/src/robot_description/package.xml':
+[12.460s] Error(s):
+[12.460s] - The generic dependency on 'gazebo_ros' is redundant with: build_depend
+[12.460s] - The generic dependency on 'sensor_msgs' is redundant with: build_depend
+[12.496s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[12.496s]   execute_process(/usr/bin/python3.10
+[12.496s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[12.497s]   /home/rahul/camera_ws/src/robot_description/package.xml
+[12.497s]   /home/rahul/camera_ws/build/robot_description/ament_cmake_core/package.cmake)
+[12.497s]   returned error code 1
+[12.497s] Call Stack (most recent call first):
+[12.497s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[12.498s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[12.498s]   CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)
+[12.498s] 
+[12.498s] [0m
+[12.498s] -- Configuring incomplete, errors occurred!
+[12.498s] See also "/home/rahul/camera_ws/build/robot_description/CMakeFiles/CMakeOutput.log".
+[12.530s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '1': /usr/bin/cmake /home/rahul/camera_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_description

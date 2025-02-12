@@ -63,13 +63,28 @@ def generate_launch_description():
                    "-name", "robot"],
     )
 
+    # gz_ros2_bridge = Node(
+    #     package="ros_gz_bridge",
+    #     executable="parameter_bridge",
+    #     arguments=[
+    #         "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",  # Existing clock bridge
+    #         "/camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",  # RGB camera bridge
+    #         "/camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",  # Camera info bridge
+    #     ],
+    #     output="screen"
+    # )
+
     gz_ros2_bridge = Node(
-        package="ros_gz_bridge",
-        executable="parameter_bridge",
-        arguments=[
-            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"
-        ]
-    )
+    package="ros_gz_bridge",
+    executable="parameter_bridge",
+    arguments=[
+        "/camera/image_raw@sensor_msgs/msg/Image[ignition.msgs.Image",
+        "/camera/camera_info@sensor_msgs/msg/CameraInfo[ignition.msgs.CameraInfo",
+        "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",  # Existing clock bridge
+    ],
+    output="screen"
+)
+
 
     return LaunchDescription([
         model_arg,
