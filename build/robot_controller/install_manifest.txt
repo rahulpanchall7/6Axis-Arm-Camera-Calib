@@ -1,0 +1,17 @@
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/launch/controller.launch.py
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/config/ros2_controllers.yaml
+/home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+/home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.sh
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.bash
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.sh
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.dsv
+/home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+/home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.xml

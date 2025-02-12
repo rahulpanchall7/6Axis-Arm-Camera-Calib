@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 4.1.7 (/opt/ros/iron/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rahul/camera_ws/build/robot_moveit
+Built target ament_cmake_python_copy_robot_moveit
+running egg_info
+creating robot_moveit.egg-info
+writing robot_moveit.egg-info/PKG-INFO
+writing dependency_links to robot_moveit.egg-info/dependency_links.txt
+writing top-level names to robot_moveit.egg-info/top_level.txt
+writing manifest file 'robot_moveit.egg-info/SOURCES.txt'
+reading manifest file 'robot_moveit.egg-info/SOURCES.txt'
+writing manifest file 'robot_moveit.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_robot_moveit_egg
+-- Install configuration: ""
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.sh
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.dsv
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/__init__.py
+Listing '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit'...
+Compiling '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/__init__.py'...
+Compiling '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py'...
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit.rviz
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/ur5_controller.py
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit.rviz
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf
+-- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/.setup_assistant
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.sh
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.dsv
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.bash
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.sh
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.zsh
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.dsv
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.dsv
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake
+-- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.xml
