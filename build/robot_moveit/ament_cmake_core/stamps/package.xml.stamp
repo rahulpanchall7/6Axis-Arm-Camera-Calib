@@ -40,6 +40,7 @@
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>moveit_commander</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>
   <exec_depend>moveit_ros_warehouse</exec_depend>
   <exec_depend>moveit_setup_assistant</exec_depend>
@@ -58,7 +59,6 @@
   <exec_depend>control_msgs</exec_depend>
   <exec_depend>numpy</exec_depend>
   <exec_depend>matplotlib</exec_depend>
-
 
 
   <export>

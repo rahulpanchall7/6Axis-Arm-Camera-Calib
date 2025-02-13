@@ -1,1 +1,1 @@
-gazebo_ros;sensor_msgs;rclcpp;robot_state_publisher;urdf;joint_state_publisher_gui;rviz2;xacro;ros_gz_sim;ros_gz_bridge;ros_gz_image;ros2launch;ament_lint_auto;ament_lint_common
+rclcpp;gazebo_ros;sensor_msgs;image_transport;camera_info_manager;robot_state_publisher;urdf;joint_state_publisher_gui;rviz2;xacro;ros_gz_sim;ros_gz_bridge;ros_gz_image;ros2launch;ament_lint_auto;ament_lint_common

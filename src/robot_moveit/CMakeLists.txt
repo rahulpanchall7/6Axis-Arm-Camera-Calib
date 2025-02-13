@@ -7,17 +7,20 @@ find_package(rclpy REQUIRED)
 
 ament_python_install_package(${PROJECT_NAME})
 
+# Install Python scripts with executable permissions
+install(PROGRAMS
+  ${PROJECT_NAME}/ur5_controller.py
+  ${PROJECT_NAME}/compute_camera_pose.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 # Install launch and config directories
 install(
   DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME}
 )
 
-# Install Python script (ur5_controller.py) with executable permissions
-install(PROGRAMS
-  ${PROJECT_NAME}/ur5_controller.py
-  DESTINATION lib/${PROJECT_NAME}
-)
+
 
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}
   PATTERN "setup_assistant.launch" EXCLUDE)

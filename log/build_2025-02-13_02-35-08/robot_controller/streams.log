@@ -1,0 +1,43 @@
+[0.019s] Invoking command in '/home/rahul/camera_ws/build/robot_controller': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_controller
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.411s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.751s] -- Configuring done
+[0.754s] -- Generating done
+[0.756s] -- Build files have been written to: /home/rahul/camera_ws/build/robot_controller
+[0.761s] Invoked command in '/home/rahul/camera_ws/build/robot_controller' returned '0': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake /home/rahul/camera_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/rahul/camera_ws/install/robot_controller
+[0.763s] Invoking command in '/home/rahul/camera_ws/build/robot_controller': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_controller -- -j12 -l12
+[0.807s] Invoked command in '/home/rahul/camera_ws/build/robot_controller' returned '0': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_controller -- -j12 -l12
+[0.809s] Invoking command in '/home/rahul/camera_ws/build/robot_controller': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_controller
+[0.816s] -- Install configuration: ""
+[0.817s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/launch
+[0.817s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[0.844s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/config
+[0.844s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/config/ros2_controllers.yaml
+[0.856s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[0.857s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[0.857s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.sh
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.bash
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.sh
+[0.858s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.dsv
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[0.859s] -- Installing: /home/rahul/camera_ws/install/robot_controller/share/robot_controller/package.xml
+[0.863s] Invoked command in '/home/rahul/camera_ws/build/robot_controller' returned '0': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_controller

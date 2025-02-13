@@ -67,14 +67,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_moveit" TYPE DIRECTORY FILES
-    "/home/rahul/camera_ws/src/robot_moveit/launch"
-    "/home/rahul/camera_ws/src/robot_moveit/config"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_moveit" TYPE PROGRAM FILES
+    "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/ur5_controller.py"
+    "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/compute_camera_pose.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_moveit" TYPE PROGRAM FILES "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/ur5_controller.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_moveit" TYPE DIRECTORY FILES
+    "/home/rahul/camera_ws/src/robot_moveit/launch"
+    "/home/rahul/camera_ws/src/robot_moveit/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
