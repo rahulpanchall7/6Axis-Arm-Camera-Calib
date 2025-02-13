@@ -19,3 +19,5 @@ sudo apt-get install -y ros-iron-joint-state-publisher-gui ros-iron-xacro ros-ir
 4. ros2 run robot_moveit ur5_controller.py <shoulder_pan_joint> <shoulder_lift_joint> <elbow_joint> <wrist_1_joint> <wrist_2_joint> <wrist_3_joint>
 5. ros2 run cobot_moveit ur5_controller.py --reset_home (to bring back to home position)
 6. ros2 run robot_description compute_camera_pose.py
+
+
