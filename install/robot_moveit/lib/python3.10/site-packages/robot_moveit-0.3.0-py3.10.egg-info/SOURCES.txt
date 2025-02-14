@@ -1,6 +1,5 @@
 setup.py
 robot_moveit/__init__.py
-robot_moveit/compute _camera_pose.py
 robot_moveit/compute_camera_pose.py
 robot_moveit/ur5_controller.py
 robot_moveit.egg-info/PKG-INFO

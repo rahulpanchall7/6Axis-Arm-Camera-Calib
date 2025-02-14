@@ -20,6 +20,18 @@ def generate_launch_description():
                                       description="Absolute path to robot urdf file"
     )
 
+    camera_file_path = os.path.join(
+        get_package_share_directory('robot_description'),
+        'urdf',
+        'camera.urdf.xacro'
+    )
+
+    camera_model_arg = DeclareLaunchArgument(name="camera_model", default_value=os.path.join(
+                                        robot_description, "urdf", "camera.urdf.xacro"
+                                        ),
+                                      description="Absolute path to camera urdf file"
+    )
+
     gazebo_resource_path = SetEnvironmentVariable(
         name="GZ_SIM_RESOURCE_PATH",
         value=[
@@ -39,12 +51,29 @@ def generate_launch_description():
         value_type=str
     )
 
+    camera_description_param = ParameterValue(Command([
+            "xacro ",
+            LaunchConfiguration("camera_model"),
+            " is_ignition:=",
+            is_ignition
+        ]),
+        value_type=str
+    )
+
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         parameters=[{"robot_description": robot_description_param,
                      "use_sim_time": True}]
     )
+
+    # camera_state_publisher_node = Node(
+    #     package="robot_state_publisher",
+    #     executable="robot_state_publisher",
+    #     parameters=[{"robot_description": camera_description_param,
+    #                  "use_sim_time": True}],
+    #     remappings=[("/robot_description", "/camera_description")]
+    # )
 
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -55,7 +84,7 @@ def generate_launch_description():
                 ]
              )
 
-    gz_spawn_entity = Node(
+    gz_spawn_robot = Node(
         package="ros_gz_sim",
         executable="create",
         output="screen",
@@ -63,34 +92,38 @@ def generate_launch_description():
                    "-name", "robot"],
     )
 
-    # gz_ros2_bridge = Node(
-    #     package="ros_gz_bridge",
-    #     executable="parameter_bridge",
-    #     arguments=[
-    #         "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",  # Existing clock bridge
-    #         "/camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",  # RGB camera bridge
-    #         "/camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",  # Camera info bridge
-    #     ],
-    #     output="screen"
-    # )
+    gz_spawn_camera = Node(
+        # package="ros_gz_sim",
+        # executable="create",
+        # output="screen",
+        # arguments=["-topic", "camera_description",
+        #            "-name", "camera"],
+
+        package='ros_gz_sim',
+        executable='create',
+        arguments=['-file', camera_file_path, '-name', 'camera'],
+        output='screen'
+    )
 
     gz_ros2_bridge = Node(
-    package="ros_gz_bridge",
-    executable="parameter_bridge",
-    arguments=[
-        "/camera/image_raw@sensor_msgs/msg/Image[ignition.msgs.Image",
-        "/camera/camera_info@sensor_msgs/msg/CameraInfo[ignition.msgs.CameraInfo",
-        "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",  # Existing clock bridge
-    ],
-    output="screen"
-)
-
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            "/camera/image_raw@sensor_msgs/msg/Image[ignition.msgs.Image",
+            "/camera/camera_info@sensor_msgs/msg/CameraInfo[ignition.msgs.CameraInfo",
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",  # Existing clock bridge
+        ],
+        output="screen"
+    )
 
     return LaunchDescription([
         model_arg,
+        camera_model_arg,
         gazebo_resource_path,
         robot_state_publisher_node,
+        # camera_state_publisher_node,
         gazebo,
-        gz_spawn_entity,
+        gz_spawn_robot,
+        gz_spawn_camera,
         gz_ros2_bridge
     ])

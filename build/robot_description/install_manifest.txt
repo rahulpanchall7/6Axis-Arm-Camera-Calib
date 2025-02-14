@@ -16,6 +16,7 @@
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro
+/home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/camera.urdf.xacro
 /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
