@@ -293,7 +293,7 @@
         </xacro:cylinder_inertial>
     </link>
 
-    <joint name="checkered_box_joint" type="fixed">
+    <!-- <joint name="checkered_box_joint" type="fixed">
         <parent link="wrist_3_link" />
         <child link="checkered_box_link" />
         <origin xyz="0.0 0.09 0.0025" rpy="0.0 0.0 ${pi/2}" />
@@ -301,9 +301,6 @@
 
     <link name="checkered_box_link">
         <visual>
-            <!-- <geometry>
-                <mesh filename="package://robot_description/meshes/checkered_box.dae" />
-            </geometry> -->
             <scale>0.5 0.5 0.5</scale>  This scales the mesh by 50%
             <geometry>
                 <box size="0.025 0.25 0.25"/>  
@@ -324,6 +321,6 @@
                      iyy="0.0001" iyz="0.0"
                      izz="0.0001"/>
         </inertial>
-    </link>
+    </link> -->
    
 </robot>

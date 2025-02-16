@@ -7,12 +7,14 @@
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_knuckle_link.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/shoulder.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_tip_link.stl
+/home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/checkered_box.dae
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist3.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/upperarm.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/base.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/forearm.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/coupler.stl
 /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_inner_knuckle_link.stl
+/home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/checker_bw.png
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
 /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro

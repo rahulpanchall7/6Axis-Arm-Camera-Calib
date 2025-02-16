@@ -1,0 +1,45 @@
+[0.327s] Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+[8.380s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_description -- -j12 -l12
+[8.664s] Invoking command in '/home/rahul/camera_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description
+[8.773s] -- Install configuration: ""
+[8.900s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch
+[8.945s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/display.launch.py
+[8.946s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[8.946s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes
+[8.959s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist1.stl
+[8.959s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_link.stl
+[8.959s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_base_link.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist2.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_knuckle_link.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/shoulder.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_finger_tip_link.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/checkered_box.dae
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/wrist3.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/upperarm.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/base.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/forearm.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/coupler.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/robotiq_85_inner_knuckle_link.stl
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/meshes/checker_bw.png
+[8.960s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf
+[8.991s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro
+[8.992s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[8.992s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro
+[8.992s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/urdf/camera.urdf.xacro
+[8.992s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/rviz
+[9.004s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[9.005s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.sh
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/environment/path.dsv
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.bash
+[9.021s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.sh
+[9.022s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.zsh
+[9.022s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/local_setup.dsv
+[9.022s] -- Installing: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.dsv
+[9.036s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[9.037s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[9.037s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[9.037s] -- Up-to-date: /home/rahul/camera_ws/install/robot_description/share/robot_description/package.xml
+[9.042s] Invoked command in '/home/rahul/camera_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_description
