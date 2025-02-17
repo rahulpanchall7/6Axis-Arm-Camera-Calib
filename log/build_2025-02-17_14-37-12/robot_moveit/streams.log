@@ -1,0 +1,77 @@
+[0.036s] Invoking command in '/home/rahul/camera_ws/build/robot_moveit': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_moveit -- -j12 -l12
+[0.526s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.410s] -- Found rclpy: 4.1.7 (/opt/ros/iron/share/rclpy/cmake)
+[1.739s] -- Configuring done
+[1.807s] -- Generating done
+[1.812s] -- Build files have been written to: /home/rahul/camera_ws/build/robot_moveit
+[1.908s] Built target ament_cmake_python_copy_robot_moveit
+[2.326s] running egg_info
+[2.328s] writing robot_moveit.egg-info/PKG-INFO
+[2.328s] writing dependency_links to robot_moveit.egg-info/dependency_links.txt
+[2.328s] writing top-level names to robot_moveit.egg-info/top_level.txt
+[2.337s] reading manifest file 'robot_moveit.egg-info/SOURCES.txt'
+[2.337s] writing manifest file 'robot_moveit.egg-info/SOURCES.txt'
+[2.504s] Built target ament_cmake_python_build_robot_moveit_egg
+[2.536s] Invoked command in '/home/rahul/camera_ws/build/robot_moveit' returned '0': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --build /home/rahul/camera_ws/build/robot_moveit -- -j12 -l12
+[2.539s] Invoking command in '/home/rahul/camera_ws/build/robot_moveit': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_moveit
+[2.560s] -- Install configuration: ""
+[2.560s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.sh
+[2.560s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/pythonpath.dsv
+[2.560s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info
+[2.561s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/SOURCES.txt
+[2.561s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/PKG-INFO
+[2.561s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
+[2.561s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/top_level.txt
+[2.561s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit
+[2.562s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/camera_pose_and_projection.py
+[2.562s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/compute_camera_pose.py
+[2.562s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py
+[2.563s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/__init__.py
+[2.631s] Listing '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit'...
+[2.631s] Compiling '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/camera_pose_and_projection.py'...
+[2.631s] Compiling '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/compute_camera_pose.py'...
+[2.631s] Compiling '/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py'...
+[2.659s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/ur5_controller.py
+[2.659s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/compute_camera_pose.py
+[2.660s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/camera_pose_and_projection.py
+[2.660s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch
+[2.660s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py
+[2.660s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
+[2.660s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf
+[2.661s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.urdf.xacro
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.ros2_control.xacro
+[2.662s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/kinematics.yaml
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/robot.srdf
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/.setup_assistant
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.sh
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/environment/path.dsv
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.bash
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.sh
+[2.663s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.zsh
+[2.664s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/local_setup.dsv
+[2.664s] -- Installing: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.dsv
+[2.664s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit
+[2.664s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake
+[2.664s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake
+[2.664s] -- Up-to-date: /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/package.xml
+[2.669s] Invoked command in '/home/rahul/camera_ws/build/robot_moveit' returned '0': AMENT_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rahul/camera_ws/install/robot_description:/opt/ros/iron /usr/bin/cmake --install /home/rahul/camera_ws/build/robot_moveit
