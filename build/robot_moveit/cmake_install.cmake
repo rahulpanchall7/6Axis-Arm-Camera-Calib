@@ -70,6 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_moveit" TYPE PROGRAM FILES
     "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/ur5_controller.py"
     "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/compute_camera_pose.py"
+    "/home/rahul/camera_ws/src/robot_moveit/robot_moveit/camera_pose_and_projection.py"
     )
 endif()
 

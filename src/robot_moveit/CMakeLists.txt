@@ -11,6 +11,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   ${PROJECT_NAME}/ur5_controller.py
   ${PROJECT_NAME}/compute_camera_pose.py
+  ${PROJECT_NAME}/camera_pose_and_projection.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

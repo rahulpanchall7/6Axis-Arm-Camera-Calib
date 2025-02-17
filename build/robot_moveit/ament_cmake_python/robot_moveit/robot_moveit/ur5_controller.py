@@ -138,6 +138,7 @@ def prompt_for_angles():
             print(f"Unexpected error: {e}. Please try again.")
 
 def main(args=None):
+    print("Initializing UR5Controller node...")
     rclpy.init()
 
     action_client = UR5Controller()

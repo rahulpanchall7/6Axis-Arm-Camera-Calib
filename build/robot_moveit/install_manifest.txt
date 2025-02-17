@@ -4,11 +4,13 @@
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/PKG-INFO
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/dependency_links.txt
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit-0.3.0-py3.10.egg-info/top_level.txt
+/home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/camera_pose_and_projection.py
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/compute_camera_pose.py
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/ur5_controller.py
 /home/rahul/camera_ws/install/robot_moveit/lib/python3.10/site-packages/robot_moveit/__init__.py
 /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/ur5_controller.py
 /home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/compute_camera_pose.py
+/home/rahul/camera_ws/install/robot_moveit/lib/robot_moveit/camera_pose_and_projection.py
 /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/setup_assistant.launch.py
 /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py
 /home/rahul/camera_ws/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml
