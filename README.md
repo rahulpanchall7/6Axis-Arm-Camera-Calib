@@ -18,7 +18,7 @@ sudo apt-get install -y ros-iron-joint-state-publisher-gui ros-iron-xacro ros-ir
 
 **Steps:**
 
-1. '''ros2 launch robot_description gazebo.launch.py'''
+1. ros2 launch robot_description gazebo.launch.py
 ![image](https://github.com/user-attachments/assets/9701cf08-2b6b-4d31-a6e3-07f2c43435a8)
 
 2. ros2 launch robot_description display.launch.py
